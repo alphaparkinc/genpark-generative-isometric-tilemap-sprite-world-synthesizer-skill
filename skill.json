@@ -1,0 +1,38 @@
+{
+  "name": "genpark-generative-isometric-tilemap-sprite-world-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Generative isometric tilemap and sprite sheet synthesizer generating seamless texture atlases and collision masks.",
+  "author": "genpark",
+  "category": "game-assets",
+  "tags": [
+    "speedrun-ai",
+    "isometric-tilemap",
+    "spritesheet",
+    "procedural-world",
+    "game-level-design"
+  ],
+  "inputs": {
+    "biome_theme": {
+      "type": "string"
+    },
+    "tileset_grid_size": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "world_pack_id": {
+      "type": "string"
+    },
+    "unique_tiles_generated_count": {
+      "type": "integer"
+    },
+    "seamless_edge_matching_verified": {
+      "type": "boolean"
+    },
+    "spritesheet_png_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
